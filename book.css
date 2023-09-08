@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    color: white;
+    background-color: rgb(42, 42, 68);
+}
+.fnav .left{
+    display: flex;
+    margin-top: 11px;
+}
+.left img{
+    width: 22%;
+}
+.left input{
+    margin-inline: 11px;
+    width: 320px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 2px;
+}
+.fnav .right{
+    display: flex;
+    margin-top: 16px;
+}
+.right p{
+    margin-inline: 22px;
+}
+.right button{
+    margin-inline: 22px;
+    background-color: rgb(240, 32, 67);
+    color: white;
+}
+.right i{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+.right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    background-color: rgb(26, 26, 48);
+    color: white;
+}
+.sec-nav .s-left{
+    display: flex;
+}
+.sec-nav .s-right{
+    display: flex;
+}
+.sec-nav p:hover{
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.s-left p{
+    margin-inline-start: 18px;
+}
+
+.s-right p{
+    margin-inline-start: 18px;
+}
+.container h2{
+    text-align: left;
+    padding: 20px 120px;
+}
+.container .card{
+    display: flex;
+    padding: 0px 120px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card img{
+    width: 80%;
+    margin-block: 18px;
+    border-radius: 5px;
+}
+.footer{
+    background-color: rgb(227, 218, 218);
+    padding: 33px;
+    margin-top: 44px;
+}
+.footer img{
+    width: 22%;
+    margin-left: 36%;
+
+}
+.footer.card{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+select{
+    cursor: pointer;
+}
